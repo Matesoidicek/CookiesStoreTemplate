@@ -1,0 +1,18 @@
+@media only screen and (max-width: 768px) {
+.f-md {
+    border-radius: 5px !important;
+    width: 515px !important;
+    margin-top: 15px;
+}
+
+.input-group-text {
+    background: none !important;
+    border: none !important;
+    color: black !important;
+}
+
+.cancel-form {
+    display: none !important;
+}
+
+}

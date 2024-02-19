@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cookies.com - Payment</title>
+
+    <link rel="stylesheet" href="queries.css">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+    <body>
+    
+        <!-- HEADER -->
+        <header>
+            <section>
+                <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+                    <div class="container">
+                        
+                        <a class="navbar-brand" href="../index.html">Cookies.com</a>
+
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                        
+                            <ul class="navbar-nav mt-0">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="../ingredients.html">Ingredients</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="index.html#types">Purchase</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </section>
+        </header>
+    
+        <!-- MAIN -->
+        <main>
+            <section>
+                <div class="container">
+                    <div class="row">
+                        <div>
+                            <form>
+                                <input type="tel" inputmode="numeric" pattern="[0-9\s]{13,19}" autocomplete="cc-number" maxlenght="19"
+                                class="form-control py-2 mt-3 mx-auto" data-bs-theme="dark" placeholder="xxxx xxxx xxxx xxxx" required>
+                                <input type="month" class="form-control py-2 mt-0 mx-auto" data-bs-theme="dark" placeholder="Validity - MM / RR" required>
+                                <input type="number" inputmode="numeric" pattern="([0-9][0-9][0-9])" maxlength="3"
+                                class="form-control py-2 mt-3 mx-auto" data-bs-theme="dark" placeholder="C V C" required>
+                            
+                                <div class="center-container">
+                                    <button class="btn btn-danger text-uppercase fs-5 py-1" type="submit"><a href="ordered.html" class="text-decoration-none text-light btn-size">Complete payment</a></button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+    </body>
+</html>

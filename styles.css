@@ -1,0 +1,58 @@
+* {
+    font-family: sans-serif;
+}
+
+.ssitem {
+    height: 480px;
+}
+
+.ssimg {
+    height: 100%;
+    filter: brightness(0.6);
+    background-size: cover;
+    object-fit: cover;
+    background-attachment: fixed;
+}
+
+.image-sect-modal {
+    object-fit: cover;
+}
+
+.image-sect-modal img {
+    height: 100%;
+}
+
+.form-control::placeholder {
+    color: #adb5bd !important;
+}
+
+.form-control {
+    max-width: 560px !important;
+}
+
+.rounded {
+    border-radius: 5px !important;
+}
+
+.input-group {
+    max-width: 585px !important;
+}
+
+.center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.btn-size {
+    padding: 9px 49px;
+}
+
+.text-ss {
+    background-color: rgba(0, 0, 0, 0.5); 
+    border-radius: 0 10px 0 10px;
+    text-align: justify;
+    box-shadow: 5px 5px 0 rgba(0, 0, 0, 0.4);
+    padding: 10px;
+}
